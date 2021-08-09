@@ -9,6 +9,7 @@ import io.cucumber.junit.Cucumber;
 			features = "src\\test\\resources"
 			,glue={"stepDefination"}
 			,tags ="@DataTable"
+            
 			)
 
 	public class CucumberTestRunner {
